@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
-    "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --forceExit"
+    "test": "cross-env NODE_ENV=testing jest --watch --verbose --forceExit"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
